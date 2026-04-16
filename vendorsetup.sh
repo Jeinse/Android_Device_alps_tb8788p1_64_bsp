@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-COMMON_LUNCH_CHOICES := \
-	omni_tb8788p1_64_bsp-user \
-	omni_tb8788p1_64_bsp-userdebug \
-	omni_tb8788p1_64_bsp-eng
+
+add_lunch_combo omni_tb8788p1_64_bsp-user
+add_lunch_combo omni_tb8788p1_64_bsp-userdebug
+add_lunch_combo omni_tb8788p1_64_bsp-eng
